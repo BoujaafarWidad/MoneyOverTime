@@ -1,5 +1,4 @@
 
-
 const getRandomAmount = (min = 1200, max = 2300) => {
   return Math.ceil(Math.random() * (max - min) + min)
 }
